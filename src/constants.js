@@ -23,7 +23,7 @@ import {
   Postman,
   Figma,
 } from "./assets/export";
-import { Webexcep, GirlScript, Hack2Skill } from "./assets/export";
+import { Webexcep, GirlScript, Hack2Skill,GirlScript1, Hack2Skill1  } from "./assets/export";
 import { OKIMR, Excellence, Alpha } from "./assets/export";
 import {
   HooBank,
@@ -45,7 +45,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   resume:
-    "https://drive.google.com/file/d/1Pfg7xdoIKj30NILihlXt_rl1Bx4XMemZ/view?usp=drive_link",
+    "https://drive.google.com/file/d/1fvTHqipEZUg6LspUZIo87TlS-2yDun9F/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/krishi-shah-1n2ov/",
   github: "https://github.com/Krishi1211",
   leetcode: "https://leetcode.com/krishishah1211/",
@@ -130,7 +130,7 @@ export const experiences = [
     company: "IEEE Bombay Section X Alhansat Technology ",
     date: "September,2023‑November,2023",
     desc: "I had the opportunity to contribute as a frontend developer in the open source community of Hack2Skill, a platform dedicated to advancing cybersecurity and ethical hacking through technology.",
-    skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    skills: ["HTML", "CSS", "Bootstrap", "JavaScript","Figma"],
     doc: "",
   },
   {
@@ -140,6 +140,15 @@ export const experiences = [
     date: "May 2023 - Aug 2023",
     desc: "I had the privilege of participating in GirlScript Summer of Code, a prestigious open source program that encourages young talents to contribute to various open source projects.",
     skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    doc: "",
+  },
+  {
+    img: GirlScript1,
+    role: "Software Developer",
+    company: "OGGN Tech",
+    date: "July 2023 - Aug 2023",
+    desc: "I was the integral part of the Oggn Tech team that developed games using React and PYgames",
+    skills: ["React", "Python","Pygames","MIT App"],
     doc: "",
   },
 ];
@@ -173,13 +182,13 @@ export const education = [
 
 export const projects = [
   {
-    title: "Hoobank Website",
+    title: "Startup Funding Analysis",
     description:
-      "Developed a Real-World Bank Website named 'Hoobank' that offers a Unique and Engaging Experience to their users. It Has 4 Sections - Home, Features, Products & Clients Section. 'Hoobank' is a fully responsive website developed using Vite JS and Tailwind CSS. Regardless of the device you use, be it a desktop computer, tabley, or smartphone, 'Hoobank' ensures a smooth browsing experience.",
+      "The Startup Funding Analysis Dashboard offers a succinct yet comprehensive view of funding trends and investment activities in the startup landscape. With interactive visualizations and insightful data analysis, it empowers stakeholders to make informed decisions and drive strategic growth.",
     image: HooBank,
-    tags: ["Vite JS", "Tailwind CSS"],
-    github: "https://github.com/anshulgupta48/Hoobank-Website",
-    link: "https://anshulgupta48.github.io/Hoobank-Website",
+    tags: ["Streamlit","Data Analysis","Dashboard Design","Python Programming"],
+    github: "https://github.com/Krishi1211/datahack",
+    link: "https://datahack-krishi.streamlit.app/",
   },
   {
     title: "GPT3-OpenAI Website",
@@ -187,8 +196,8 @@ export const projects = [
       "'GPT3-OpenAI' is a Real-World AI-Tool Website that offers you a collection of informative articles that dive deep into the world of AI. It Has 5 Sections - Home, What is GPT3, Features, Possibility & Blogs Section from Where is Created to Provide a Unique and Engaging experience. 'GPT3-OpenAI' is a fully responsive website developed using React JS and Sass. Regardless of the device you use, be it a desktop computer, tabley, or smartphone, 'GPT3-OpenAI' ensures a smooth browsing experience.",
     image: Gpt3,
     tags: ["React JS", "Sass"],
-    github: "https://github.com/anshulgupta48/Anon-Ecommerce-Website",
-    link: "https://anshulgupta48.github.io/Anon-Ecommerce-Website",
+    github: "https://github.com/Krishi1211/GPT3-landing-page",
+    link: "https://gpt3openailandingpage.netlify.app/",
   },
   {
     title: "Anon Ecommerce Website",
@@ -196,34 +205,43 @@ export const projects = [
       "Designed and Developed a Real-World Ecommerce Website named 'Anon' that offers a wide range of products and features to enhance your online shopping experience. It Has 6 Sections - Categories, Deals of the Day, Recommended For You, Electronics, Our Founder & Services, Blogs Section. 'Anon' is a fully responsive website developed using HTML, CSS and JavaScript. Regardless of the device you use, be it a desktop computer, tabley, or smartphone, 'Anon' ensures a smooth browsing experience.",
     image: Anon,
     tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/anshulgupta48/Anon-Ecommerce-Website",
-    link: "https://anshulgupta48.github.io/Anon-Ecommerce-Website",
+    github: "https://github.com/Krishi1211/Anon-Ecommerce-Website",
+    link: "https://krishi1211.github.io/Anon-Ecommerce-Website/",
   },
   {
-    title: "Disney+ Hotstar Clone",
+    title: "Melo",
     description:
-      "I Have Created a 'Disney Plus Hotstar' Clone. It is a fully responsive website developed using HTML, CSS and JavaScript. It Has 3 Sections - Recommended For You, Popular Shows, New Releases from where Users Can Navigate to their Favourite Shows. Regardless of the device you use, be it a desktop computer, tabley, or smartphone, it ensures a smooth browsing experience.",
-    image: Hotstar,
+      "Designed and Developed a Real-World Ecommerce Website named 'Anon' that offers a wide range of products and features to enhance your online shopping experience. It Has 6 Sections - Categories, Deals of the Day, Recommended For You, Electronics, Our Founder & Services, Blogs Section. 'Anon' is a fully responsive website developed using HTML, CSS and JavaScript. Regardless of the device you use, be it a desktop computer, tabley, or smartphone, 'Anon' ensures a smooth browsing experience.",
+    image: Anon,
     tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/anshulgupta48/Disney-Plus-Hotstar-Clone",
-    link: "https://anshulgupta48.github.io/Disney-Plus-Hotstar-Clone",
+    github: "https://github.com/Krishi1211/Anon-Ecommerce-Website",
+    link: "https://krishi1211.github.io/Anon-Ecommerce-Website/",
   },
-  {
-    title: "The Garden Cafe Website",
-    description:
-      "Designed and Developed a Real-World Cafe Website named 'The Garden Cafe' that promises an immersive and enchanting online experience. 'The Garden Cafe' is a fully responsive website developed using HTML, CSS and JavaScript. Regardless of the device you use, be it a desktop computer, tabley, or smartphone, 'The Garden Cafe' ensures a smooth browsing experience.",
-    image: GardenCafe,
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/anshulgupta48/The-Garden-Cafe-Website",
-    link: "https://anshulgupta48.github.io/The-Garden-Cafe-Website",
-  },
-  {
-    title: "Fithub Gym Website",
-    description:
-      "'Fithub' is a Real-World Gym Website Which offers a comprehensive fitness experience for users. 'Fithub' is a fully responsive website developed using HTML, CSS and JavaScript. It Has 4 dynamic pages including Home, About, Classes, and Contact. Regardless of the device you use, be it a desktop computer, tabley, or smartphone, 'Fithub' ensures a smooth browsing experience.",
-    image: Fithub,
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/anshulgupta48/Fithub-Gym-Website",
-    link: "https://anshulgupta48.github.io/Fithub-Gym-Website",
-  },
+  // {
+  //   title: "Disney+ Hotstar Clone",
+  //   description:
+  //     "I Have Created a 'Disney Plus Hotstar' Clone. It is a fully responsive website developed using HTML, CSS and JavaScript. It Has 3 Sections - Recommended For You, Popular Shows, New Releases from where Users Can Navigate to their Favourite Shows. Regardless of the device you use, be it a desktop computer, tabley, or smartphone, it ensures a smooth browsing experience.",
+  //   image: Hotstar,
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   github: "https://github.com/anshulgupta48/Disney-Plus-Hotstar-Clone",
+  //   link: "https://anshulgupta48.github.io/Disney-Plus-Hotstar-Clone",
+  // },
+  // {
+  //   title: "The Garden Cafe Website",
+  //   description:
+  //     "Designed and Developed a Real-World Cafe Website named 'The Garden Cafe' that promises an immersive and enchanting online experience. 'The Garden Cafe' is a fully responsive website developed using HTML, CSS and JavaScript. Regardless of the device you use, be it a desktop computer, tabley, or smartphone, 'The Garden Cafe' ensures a smooth browsing experience.",
+  //   image: GardenCafe,
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   github: "https://github.com/anshulgupta48/The-Garden-Cafe-Website",
+  //   link: "https://anshulgupta48.github.io/The-Garden-Cafe-Website",
+  // },
+  // {
+  //   title: "Fithub Gym Website",
+  //   description:
+  //     "'Fithub' is a Real-World Gym Website Which offers a comprehensive fitness experience for users. 'Fithub' is a fully responsive website developed using HTML, CSS and JavaScript. It Has 4 dynamic pages including Home, About, Classes, and Contact. Regardless of the device you use, be it a desktop computer, tabley, or smartphone, 'Fithub' ensures a smooth browsing experience.",
+  //   image: Fithub,
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   github: "https://github.com/anshulgupta48/Fithub-Gym-Website",
+  //   link: "https://anshulgupta48.github.io/Fithub-Gym-Website",
+  // },
 ];

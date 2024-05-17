@@ -36,9 +36,11 @@ export { default as Figma } from './skills/figma.svg';
 
 
 // <======== Exporting Experience-Section Images ========>
-export { default as Webexcep } from './experience/webexcep.jpg';
+export { default as Webexcep } from './experience/webexcep.jpeg';
 export { default as GirlScript } from './experience/girlscript.jpg';
-export { default as Hack2Skill } from './experience/hack2skill.jpg';
+export { default as Hack2Skill } from './experience/hack2skill.jpeg';
+export { default as GirlScript1 } from './experience/oggntech.png';
+export { default as Hack2Skill1 } from './experience/hack2skill.jpeg';
 
 
 // <======== Exporting Projects-Section Images ========>
