@@ -29,9 +29,6 @@ import {
   HooBank,
   Gpt3,
   Anon,
-  Hotstar,
-  GardenCafe,
-  Fithub,
 } from "./assets/export";
 
 export const Bio = {
