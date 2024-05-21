@@ -23,7 +23,7 @@ import {
   Postman,
   Figma,
 } from "./assets/export";
-import { Webexcep, GirlScript, Hack2Skill,GirlScript1, Hack2Skill1  } from "./assets/export";
+import { Webexcep, GirlScript, Hack2Skill,GirlScript1} from "./assets/export";
 import { OKIMR, Excellence, Alpha } from "./assets/export";
 import {
   HooBank,
